@@ -1,0 +1,340 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Work Sans' !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+div,
+span,
+label {
+    cursor: default;
+}
+
+button,
+a,
+button div,
+button span {
+    cursor: pointer;
+}
+
+div,
+button,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    font-family: 'Work Sans' !important;
+    /* font-weight: 500 !important; */
+}
+
+h6.fw-b,
+h5.fw-b,
+h4.fw-b,
+h3.fw-b,
+h2.fw-b {
+    font-weight: 800;
+}
+
+h6.fw-sb,
+h5.fw-sb,
+h4.fw-sb,
+h3.fw-sb,
+h2.fw-sb {
+    font-weight: 500;
+}
+
+h6.tt-u,
+h5.tt-u,
+h4.tt-u,
+h3.tt-u,
+h2.tt-u {
+    text-transform: uppercase;
+}
+
+h6.tt-l,
+h5.tt-l,
+h4.tt-l,
+h3.tt-l,
+h2.tt-l {
+    text-transform: lowercase;
+}
+
+h6.tt-ic,
+h5.tt-ic,
+h4.tt-ic,
+h3.tt-ic,
+h2.tt-ic {
+    text-transform: capitalize;
+}
+
+h6.c-xxl,
+h5.c-xxl,
+h4.c-xxl,
+h3.c-xxl,
+h2.c-xxl {
+    color: #888;
+}
+
+h6.c-l,
+h5.c-l,
+h4.c-l,
+h3.c-l,
+h2.c-l {
+    color: #444;
+    font-weight: 700;
+}
+
+div,
+button,
+span,
+.no-ol {
+    outline: none !important;
+}
+
+.header {
+    padding: 15px;
+}
+
+.header-mb {
+    padding: 5%;
+}
+
+.mr-4 {
+    margin-right: 4px !important;
+}
+
+.mr-8 {
+    margin-right: 8px !important;
+}
+
+.mr-16 {
+    margin-right: 16px !important;
+}
+
+.mr-24 {
+    margin-right: 24px !important;
+}
+
+.mr-32 {
+    margin-right: 32px !important;
+}
+
+.ml-4 {
+    margin-left: 4px !important;
+}
+
+.ml-8 {
+    margin-left: 8px !important;
+}
+
+.ml-16 {
+    margin-left: 16px !important;
+}
+
+.ml-24 {
+    margin-left: 24px !important;
+}
+
+.ml-32 {
+    margin-left: 32px !important;
+}
+
+.mt-4 {
+    margin-top: 4px !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.mt-24 {
+    margin-top: 24px !important;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.mb-4 {
+    margin-bottom: 4px !important;
+}
+
+.mb-8 {
+    margin-bottom: 8px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
+.mb-24 {
+    margin-bottom: 24px !important;
+}
+
+.mb-22 {
+    margin-bottom: 22px !important;
+}
+
+.mb-32 {
+    margin-bottom: 32px !important;
+}
+
+.fs-xs {
+    font-size: 12px !important;
+}
+
+.fs-21 {
+    font-size: 21px !important;
+}
+
+.fs-sm {
+    font-size: 13px !important;
+}
+
+.fs-l {
+    font-size: 19px !important;
+}
+
+.fs-m {
+    font-size: 14px !important;
+}
+
+.fs-mm {
+    font-size: 15px !important;
+}
+
+.fs-lr {
+    font-size: 17px !important;
+}
+
+.fs-21 {
+    font-size: 21px !important;
+}
+
+.fwd {
+    width: 100% !important;
+}
+
+.fht {
+    height: 100% !important;
+}
+
+.fwdht {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.fw-sb {
+    font-weight: 500 !important;
+}
+
+.fw-b {
+    font-weight: 900 !important;
+}
+
+h2 {
+    line-height: 30px;
+    margin: 0 !important;
+}
+
+h3 {
+    line-height: 28px;
+    margin: 0 !important;
+}
+
+h4 {
+    line-height: 24px;
+    margin: 0 !important;
+}
+
+h5 {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 !important;
+}
+
+h6 {
+    line-height: 18px;
+    margin: 0 !important;
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.pdlr-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pdl-8 {
+    padding-left: 8px;
+}
+
+.pd-10 {
+    padding: 10px !important;
+}
+
+.pdr-10 {
+    padding-right: 10px !important;
+}
+
+.pdt10 {
+    padding-top: 10px;
+    background: white;
+}
+
+.pdb-10 {
+    padding-bottom: 10px !important;
+}
+
+.pdl-10 {
+    padding-left: 10px !important;
+}
+
+.pdlr-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.pdtb-10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* top: 64px; */
+}
+
+.sub-container {
+    max-width: 1300px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 100%;
+}
